@@ -1,0 +1,85 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 700px;
+  width: 1200px;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+  padding-top: 40px;
+}
+
+header .logo {
+  width: 200px;
+}
+
+header h1 {
+  color: #01de02;
+}
+
+.container-item {
+  width: 70%;
+  margin: auto;
+}
+
+nav {
+  text-align: center;
+  background-color: #01de02;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+main {
+  color: white;
+}
+
+section {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+section h1 {
+  display: inline-block;
+}
+
+.progress-bar {
+  text-align: right;
+  line-height: normal;
+  padding-right: 5px;
+}
+
+.medium.progress-bar {
+  background-color: orange;
+  width: 41%;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.low.progress-bar {
+  background-color: red;
+  width: 20%;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.high.progress-bar {
+  background-color: green;
+  width: 78%;
+  height: 20px;
+  border-radius: 5px;
+}
